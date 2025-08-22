@@ -1,2 +1,12 @@
-# Cell-Monitor
-Script to remotely and continuesly monitor cellular signal on Cisco routers with LTE 
+# Cellular RF Monitor
+
+Install:
+  bash install_cellmon.sh
+
+Reload shell:
+  source ~/.bashrc   # or source ~/.zshrc
+
+Run:
+  cellmon
+
+Installer saves credentials to ~/.config/cellmon_config.json (600 perms).
